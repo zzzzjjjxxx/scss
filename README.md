@@ -23,4 +23,12 @@
 默认值。没有定位
 # inherit
 继承自父元素的position属性的值。
-
+# transparent
+   margin:38rpx 50rpx;
+  border-top:33rpx solid transparent;
+  border-left:54rpx solid #fff;
+  border-bottom:33rpx solid transparent;
+  拿这个举例，一个矩形就是从上到下，从下到上，距离会各有33rpx的透明平行透明空间，然后就是确定从左到右边的距离为54.
+  # 正常图形的画法
+  先是正常的class，如果是不规则的图形的话，写法是这样的，width：0；height：0；border-left：50px solid transparent;border-right: 50px solid transparent;border-bottom: 100px solid red;
+  如果正常的情况下要在这个图像后续增加一个图像拼接，也就是伪类的方法。子元素的部分图像的画法可以借鉴上面那个部分的画法，除此之外，伪类如果需要对伪类图形进行定位的话position: absolute;top: 0px;left: 0px;同时正常的class也需要position: relative;的写法才能生效，以及伪类需要 content: "";里可以写字。
