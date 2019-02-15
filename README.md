@@ -32,3 +32,8 @@
   # 正常图形的画法
   先是正常的class，如果是不规则的图形的话，写法是这样的，width：0；height：0；border-left：50px solid transparent;border-right: 50px solid transparent;border-bottom: 100px solid red;
   如果正常的情况下要在这个图像后续增加一个图像拼接，也就是伪类的方法。子元素的部分图像的画法可以借鉴上面那个部分的画法，除此之外，伪类如果需要对伪类图形进行定位的话position: absolute;top: 0px;left: 0px;同时正常的class也需要position: relative;的写法才能生效，以及伪类需要 content: "";里可以写字。
+# 文本框文字太多的省略
+首先要定义文本框的width，然后是在这个标签上面增加一个，样式
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;用来文字超过一定长度就进行省略。
