@@ -37,3 +37,7 @@
 overflow: hidden;
 text-overflow: ellipsis;
 white-space: nowrap;用来文字超过一定长度就进行省略。
+# transform:rotate(360deg)
+进行动画的变幻
+transform:translate(x,y)
+
