@@ -41,3 +41,5 @@ white-space: nowrap;用来文字超过一定长度就进行省略。
 进行动画的变幻
 transform:translate(x,y)
 
+# animation: toOpacity 8s 2s infinite both;
+动画名字， 动画播放时间，延迟时间，播放次数
