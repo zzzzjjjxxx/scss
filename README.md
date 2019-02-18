@@ -57,6 +57,7 @@ else if（当前时间格式 === yesterday）{进行昨天的时间的格式化�
 else if （当前的时间戳-3天时长的时间戳得到的时间 < 更新时间的时间戳）（意味着三天以内的时间，有一种表达的格式）
 else {超过三天的时间的时间戳表达方式}
 # this.$nextTick(() => { })
+（凡是当你更新了绑定的数据后界面没更新，那就试试nextTick吧）
 this.nextTick(callback)，当数据发生变化，更新后执行回调。
 this.$nextTick(callback)，当dom发生变化，更新后执行的回调。
 # v-bind: 简写就是:
