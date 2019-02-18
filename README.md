@@ -44,3 +44,8 @@ transform:translate(x,y)
 # animation: toOpacity 8s 2s infinite both;
 动画名字， 动画播放时间，延迟时间，播放次数
 # 强制不换行white-space:nowrap;
+# 直接获取数据的写法
+const { data: { users } } = await apicustom.getCustom(id)
+# 对数组的每一个元素进行操作的写法
+数组对象.map(item => {}}）
+数组对象.forEach(e => {}）
