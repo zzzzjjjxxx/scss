@@ -59,3 +59,5 @@ else {超过三天的时间的时间戳表达方式}
 # this.$nextTick(() => { })
 this.nextTick(callback)，当数据发生变化，更新后执行回调。
 this.$nextTick(callback)，当dom发生变化，更新后执行的回调。
+# v-bind: 简写就是:
+v-on: 简写就是@
