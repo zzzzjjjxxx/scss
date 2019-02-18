@@ -43,3 +43,4 @@ transform:translate(x,y)
 
 # animation: toOpacity 8s 2s infinite both;
 动画名字， 动画播放时间，延迟时间，播放次数
+# 强制不换行white-space:nowrap;
