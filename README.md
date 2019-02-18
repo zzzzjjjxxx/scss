@@ -47,8 +47,8 @@ transform:translate(x,y)
 # 直接获取数据的写法
 const { data: { users } } = await apicustom.getCustom(id)
 # 对数组的每一个元素进行操作的写法
-数组对象.map(item => {}}）
-数组对象.forEach(e => {}）
+数组对象.map(item => {}}）可以对数组对象进行修改
+数组对象.forEach(e => {}）不能对数组对象进行修改，就类似for循环的功能
 # 关于时间的格式化的处理
 1.today = 先得到当前的时间戳（并转格式format）。
 2.yesterday = 得到昨天的时间戳（并转格式）。
