@@ -64,3 +64,6 @@ this.$nextTick(callback)，当dom发生变化，更新后执行的回调。
 v-on: 简写就是@
 # catchtouchmove="ture"属性
 防止弹窗后滚动穿透
+# data-自己新建的属性名称（text）
+e.currentTarget.dataset.text,在小程序里面可以通过这种方法直接获取
+# 还有就是直接去打印this，从而来得到结果
