@@ -68,3 +68,12 @@ v-on: 简写就是@
 e.currentTarget.dataset.text,在小程序里面可以通过这种方法直接获取
 # 还有就是直接去打印this，从而来得到结果
 # 生命周期里面的异步事件会随着先把生命周期里面的同步事件都执行完，随着created=》mounted ，在执行里面的异步事件
+# 如何在不播放录音的时候就获取音频的时间长度 
+      const bg = wx.createInnerAudioContext()
+      bg.src = this.voice
+      bg.onCanplay(() => {
+      })
+      setTimeout(() => {
+        console.log(bg.duration)
+        this.num = Math.round(bg.duration)
+      }, 1000)
