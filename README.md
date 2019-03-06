@@ -77,5 +77,7 @@ e.currentTarget.dataset.text,在小程序里面可以通过这种方法直接获
         console.log(bg.duration)
         this.num = Math.round(bg.duration)
       }, 1000)
- #  success: function (res) { }
+#  success: function (res) { }
  success: (res) => {} 这样里面可以直接用this
+# 在外面的函数 onShareAppMessage: function () {} 可以直接等于onShareAppMessage () {}
+# 在里面的函数 function（）改成 （）=>可以
