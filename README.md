@@ -81,3 +81,5 @@ e.currentTarget.dataset.text,在小程序里面可以通过这种方法直接获
  success: (res) => {} 这样里面可以直接用this
 # 在外面的函数 onShareAppMessage: function () {} 可以直接等于onShareAppMessage () {}
 # 在里面的函数 function（）改成 （）=>可以
+# success: async (res) => {}
+如果括号里面有await的话
