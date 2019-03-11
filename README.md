@@ -83,3 +83,4 @@ e.currentTarget.dataset.text,在小程序里面可以通过这种方法直接获
 # 在里面的函数 function（）改成 （）=>可以
 # success: async (res) => {}
 如果括号里面有await的话
+# :nth-of-type 和:nth-child的区别
