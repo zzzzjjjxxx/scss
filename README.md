@@ -84,3 +84,4 @@ e.currentTarget.dataset.text,在小程序里面可以通过这种方法直接获
 # success: async (res) => {}
 如果括号里面有await的话
 # :nth-of-type 和:nth-child的区别
+# const表示不变
